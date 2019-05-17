@@ -4,7 +4,7 @@
 
 Welcome to the perpetual, open permaweb hackathon! 
 
-At Arweave we firmly believe that the future of the new web should be open source [LINK to our ‘open web blog post 1’] for the benefit of users and developers alike. We want to help make this a reality, so we’re rewarding developers like yourself for building open source dApps on the permaweb!
+At Arweave we firmly believe that the future of [the new web should be open source](https://medium.com/@arweave/towards-an-open-source-web-9ffe201fc044) for the benefit of users and developers alike. We want to help make this a reality, so we’re rewarding developers like yourself for building open source dApps on the permaweb!
 
 The Arweave itself is a global, permanent hard drive. The permaweb is a decentralised, immutable web built on top of the Arweave. Permaweb apps are built using normal web technologies — HTML, CSS, and Javascript — but are deployed to Arweave’s on-chain storage system, making them permanent and available in a fast, decentralised manner. You can get started and deploy a permaweb app in 2 minutes or less.
 
