@@ -153,10 +153,11 @@ function getApps() {
   }).then((txids) => {
     console.log(txids);
     // For each app...
+    var count = 0;
     txids.forEach(txn_id => {
       arweave.transactions.get(txn_id).then(transaction => {
         // Use the get method to get a specific transaction field.
-        console.log(transaction.get('signature'));
+        console.log(txn_id, transaction.get('signature'));
         // NLiRQSci56KVNk-x86eLT1TyF1ST8pzE-s7jdCJbW-V...
         console.log(transaction.get('data'));
         //CjwhRE9DVFlQRSBodG1sPgo8aHRtbCBsYW5nPSJlbiI-C...
@@ -170,6 +171,47 @@ function getApps() {
           let key = tag.get('name', {decode: true, string: true});
           let value = tag.get('value', {decode: true, string: true});
           console.log(`${key} : ${value}`);
+
+          if(key == 'appstore_metadata')  {
+            ipfs.get(value, function (err, files) {
+              files.forEach((file) => {
+                console.log(file.path)
+                var payload = file.content.toString('utf8');
+
+                if(payload.substring(0,1) == '{') {
+                  var metadata = JSON.parse(payload);
+                  console.log("Metadata = ", metadata);
+
+                  // Set <a> link
+                  var link = 'https://arweave.net/'+txn_id;
+                  var title = metadata.title;
+                  var description = metadata.description;
+                  var image = metadata.image;
+
+                  count++;
+                  if(count == 1) {
+                    $('#apps').append('<div class="gc-1"> <div class="grid g1" style="background: url(\''+image+'\'); background-size: cover;">  <div class="upper-headline">'+description+'</div> <div class="headline">'+title+'</div>  <div class="content" >  </div></div>');
+                  }
+                  if(count == 2) {
+                    $('#apps').append('<div class="grid g2"> <div class="upper-headline">World Premiere</div>   <div class="headline">  The Art of the Impossible   </div> <div class="content"> </div> <div class="footline">Inside the extraordinary world of Monument Valley 2</div></div> </div>');
+                  }
+                  if(count == 3) {
+                  $('#apps').append('<div class="gc-2"> <div class="grid g3">  <div class="upper-headline"></div>  <div class="headline">  </div>  <div class="content atd"> App of the day  </div>  <div class="footline"> <div class="head">Hitlist</div><div class="subhead">Cheap flights, airline tickets</div>  </div> </div>');
+                  }
+                  if(count == 4) {
+                    $('#apps').append('<div class="grid g4"><div class="upper-headline">Collection</div><div class="headline"> The Perfect Coffee Break  </div>  <div class="content">  </div> </div>  </div> </div>');
+                    count = 0;
+                  }
+                }
+
+              })
+            });
+
+          }
+
+          if(key == 'appstore_filetype') {
+            // set file
+          }
         });
         // Content-Type : text/html // User-Agent : ArweaveDeploy/1.1.0
       });
