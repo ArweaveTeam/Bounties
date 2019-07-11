@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>EveryApp : The Decentralized App Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="/img/app.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+ <div class="content">
+  <div class="content-wrapper">
+
+   <div class="date-indicators">
+    <div class="date">
+     Saturday, 15 July
+    </div>
+    <div class="day">
+     Today
+    </div>
+   </div>
+
+   <div class="grid-container">
+    <div class="gc-1">
+     <div class="grid g1">
+      <div class="upper-headline">From the editors</div>
+      <div class="headline">
+       Welcome to the <br/> All-New App Store!
+      </div>
+      <div class="content">
+      </div>
+     </div>
+     <div class="grid g2">
+      <div class="upper-headline">World Premiere</div>
+      <div class="headline">
+       The Art of the Impossible
+      </div>
+      <div class="content">
+      </div>
+      <div class="footline">Inside the extraordinary world of Monument Valley 2</div>
+     </div>
+    </div>
+
+    <div class="gc-2">
+     <div class="grid g3">
+      <div class="upper-headline"></div>
+      <div class="headline">
+      </div>
+      <div class="content atd">
+       App of the day
+      </div>
+      <div class="footline">
+       <div class="head">Hitlist</div>
+       <div class="subhead">Cheap flights, airline tickets</div>
+      </div>
+     </div>
+     <div class="grid g4">
+      <div class="upper-headline">Collection</div>
+      <div class="headline">
+       The Perfect Coffee Break
+      </div>
+      <div class="content">
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="content-wrapper">
+   <div class="date-indicators">
+    <div class="date">
+     14 July
+    </div>
+    <div class="day">
+     Friday
+    </div>
+   </div>
+
+   <div class="grid-container">
+    <div class="gc-1">
+     <div class="grid g1">
+      <div class="upper-headline">Deep Dive</div>
+      <div class="headline">
+       It All Changes on Level 201
+      </div>
+      <div class="content">
+      </div>
+      <div class="footline">
+       <div class="subhead">Casuality bends space, time and your mind-- in a good way.</div>
+      </div>
+     </div>
+     <div class="grid g2">
+      <div class="upper-headline"></div>
+      <div class="headline">
+      </div>
+      <div class="content atd">
+       App of the day
+      </div>
+      <div class="footline">
+       <div class="head">WaterMinder</div>
+       <div class="subhead">Daily Water Reminder</div>
+      </div>
+     </div>
+    </div>
+
+    <div class="gc-2">
+     <div class="grid g3">
+      <div class="upper-headline"></div>
+      <div class="headline">
+      </div>
+      <div class="content atd">
+       Game of the day
+      </div>
+      <div class="footline">
+       <div class="head">Splitter Crittters</div>
+       <div class="subhead">Split Worlds and save critters</div>
+      </div>
+     </div>
+     <div class="grid g4">
+      <div class="upper-headline">The daily list</div>
+      <div class="headline">
+       Relax. Breathe. <br/> Zen out Anywhere.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="footer-menu">
+  <div class="menu today active">All</div>
+  <div class="menu game">Android</div>
+  <div class="menu apps">Chrome</div>
+  <div class="menu updates">Firefox</div>
+  <div class="menu upload upload-button">Upload</div>
+ </div>
+
+</div>
+
+
+<div class="content-modal" id="content-modal">
+ <div class="modal-body">
+  <div class="header">
+   <div class="label">
+    <div class="upper-headline">Android</div>
+    <div class="headline">
+     Facebook Messenger v3.1
+    </div>
+
+   </div>
+   <div class="icon">
+    <i class="fa fa-times" aria-hidden="true"></i>
+   </div>
+  </div>
+  <div class="body-content">
+    <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/Facebook-Messenger-hed.jpg" style="width: 100%; max-height: 240px; object-fit: cover;" />
+   <div>
+    Thanks for checking out this demo of upcoming App Store for iPad (which is in beta as of writing this demo. Thanks for checking out this demo of upcoming App Store for iPad (which is in beta as of writing this demo. Thanks for checking out this demo of upcoming App Store for iPad (which is in beta as of writing this demo.
+   </div>
+   <!--
+   <div>
+     <b>File Size:</b> 64 KB
+   </div>-->
+
+   <!-- Download button: -->
+   <div class="download-button-wrapper">
+   <button class="download-btn btn">
+     <i class="fa fa-download"></i>
+     <span>Download</span>
+   </button>
+ </div>
+
+  </div>
+ </div>
+</div>
+
+
+<div class="content-modal upload-modal" id="upload-modal">
+ <div class="modal-body">
+  <div class="header">
+   <div class="label">
+    <div class="upper-headline">App Store</div>
+    <div class="headline">
+     Upload An App
+    </div>
+   </div>
+   <div class="icon">
+    <i class="fa fa-times" aria-hidden="true"></i>
+   </div>
+  </div>
+  <div class="body-content">
+   <div>
+     <form action='#' onsubmit="return false;">
+      <label> Wallet: </label> <input type='file' id='walletUpload' accept=".json" /><br />
+      <label> App Name: </label> <input type='text' name="name" id="title" style="width: 70%" /> <br />
+      <label> Description: </label> <textarea name="description" id="description" style="width: 70%;"></textarea> <br />
+      <label> App File: </label> <input type='file' name="appfile" accept=".apk" /><br />
+      <label> App Image: </label> <input type='file' name="appimage" id="appimage" accept=".jpeg,.png,.jpg,.gif" /><br />
+      <input type='button' id='btnLoad' value='Upload' onclick='upload();'>
+      </form>
+   </div>
+
+
+  </div>
+ </div>
+</div>
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  <!-- Arweave.JS -->
+  <script src="https://unpkg.com/arweave/bundles/web.bundle.min.js"></script>
+  <!-- IPFS -->
+  <script src="https://unpkg.com/ipfs-http-client/dist/index.min.js"></script>
+  <!-- IPFS + Buffer -->
+  <script src="https://npmcdn.com/ipfs-api/dist/index.js"></script>
+  <!-- Main App -->
+  <script  src="./script.js"></script>
+
+
+
+</body>
+
+</html>
