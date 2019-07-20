@@ -12,10 +12,11 @@ $('.content-modal .icon').click(() => {
 
 $('.upload-button').click(() => {
   $('#upload-modal').addClass('active');
-  $('.wrapper').addClass('blur');
+  //$('.wrapper').addClass('blur');
   $("html, body").animate({ scrollTop: 0 }, "slow");
 });
 
+// Initialize Arweave blockchain connection...
 const arweave = Arweave.init({
 	host: 'arweave.net',// Hostname or IP address for a Arweave node
 	port: 443,           // Port, defaults to 1984
@@ -26,6 +27,7 @@ const arweave = Arweave.init({
 
 arweave.network.getInfo().then("Connected to Arweave Network:", console.log);
 
+// Connect to IPFS
 var ipfs = window.IpfsHttpClient('ipfs.infura.io', '5001', {protocol: 'https'});
 console.log("Connected to IPFS via Infura (:5001)");
 
@@ -53,12 +55,18 @@ function upload(wallet) {
             alert("Error: You must have AR in your wallet to upload an app!")
           } else {
 
+            // Get app file
+            var app = $('#appfile').prop('files')[0];
+            var arr = app.name.split(".");
+            var filetype = arr[arr.length-1];
+            //console.log("appfile TYPE:", filetype);
+
             // Create a transaction
             arweave.createTransaction({
                 data: '<html><head><meta charset="UTF-8"><title>Hello world!</title></head><body></body></html>',
             }, jsonObj).then((transaction) => {
               transaction.addTag('Content-Type', 'text/html');
-              transaction.addTag('appstore_filetype', 'ipa');
+              transaction.addTag('appstore_filetype', filetype);
               //transaction.addTag('appstore_title', $('#title').val());
 
               // PROCESS UPLOAD:
@@ -136,21 +144,44 @@ function upload(wallet) {
 }
 
 
-function getApps() {
+function getApps(filetype) {
+  // Create query
+  var query;
+  if(!filetype || filetype == "all") {
+    query = {
+      op: "or",
+      expr1: {
+        op: "equals",
+        expr1: "appstore_filetype",
+        expr2: "ipa"
+      },
+      expr2: {
+        op: "equals",
+        expr1: "appstore_filetype",
+        expr2: "apk"
+      },
+      expr3: {
+        op: "equals",
+        expr1: "appstore_filetype",
+        expr2: "crx"
+      },
+      expr4: {
+        op: "equals",
+        expr1: "appstore_filetype",
+        expr2: "xpi"
+      }
+    };
+  } else {
+    query = {
+      op: "equals",
+      expr1: "appstore_filetype",
+      expr2: filetype
+    };
+  }
+
   // Query for all appstore transactions/uploads
-  arweave.arql({
-    op: "or",
-    expr1: {
-      op: "equals",
-      expr1: "appstore_filetype",
-      expr2: "ipa"
-    },
-    expr2: {
-      op: "equals",
-      expr1: "appstore_filetype",
-      expr2: "apk"
-    }
-  }).then((txids) => {
+  arweave.arql(query).then((txids) => {
+    $('#apps').html('');
     console.log(txids);
     // For each app...
     var count = 0;
@@ -202,6 +233,10 @@ function getApps() {
                     $('#apps').append('<div class="grid g4"><div class="upper-headline">Collection</div><div class="headline"> The Perfect Coffee Break  </div>  <div class="content">  </div> </div>  </div> </div>');
                     count = 0;
                   }
+                  if(count == 1 || count % 3 == 0) {
+                    console.log("count = ", count);
+                    $('#apps').append('</div><!-- added -->');
+                  }
                 }
 
               })
@@ -219,7 +254,7 @@ function getApps() {
 });
 }
 
-getApps();
+getApps("all");
 
 
 // IPFS Stuff:

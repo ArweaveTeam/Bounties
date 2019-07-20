@@ -24,10 +24,10 @@
 
    <div class="date-indicators">
     <div class="date">
-     Saturday, 15 July
+     RECENTLY ADDED
     </div>
-    <div class="day">
-     Today
+    <div class="day" id="filterTitle">
+     All Apps
     </div>
    </div>
 
@@ -38,71 +38,13 @@
 
 
   </div>
-  <div class="content-wrapper">
-   <div class="date-indicators">
-    <div class="date">
-     14 July
-    </div>
-    <div class="day">
-     Friday
-    </div>
-   </div>
-
-   <div class="grid-container">
-    <div class="gc-1">
-     <div class="grid g1">
-      <div class="upper-headline">Deep Dive</div>
-      <div class="headline">
-       It All Changes on Level 201
-      </div>
-      <div class="content">
-      </div>
-      <div class="footline">
-       <div class="subhead">Casuality bends space, time and your mind-- in a good way.</div>
-      </div>
-     </div>
-     <div class="grid g2">
-      <div class="upper-headline"></div>
-      <div class="headline">
-      </div>
-      <div class="content atd">
-       App of the day
-      </div>
-      <div class="footline">
-       <div class="head">WaterMinder</div>
-       <div class="subhead">Daily Water Reminder</div>
-      </div>
-     </div>
-    </div>
-
-    <div class="gc-2">
-     <div class="grid g3">
-      <div class="upper-headline"></div>
-      <div class="headline">
-      </div>
-      <div class="content atd">
-       Game of the day
-      </div>
-      <div class="footline">
-       <div class="head">Splitter Crittters</div>
-       <div class="subhead">Split Worlds and save critters</div>
-      </div>
-     </div>
-     <div class="grid g4">
-      <div class="upper-headline">The daily list</div>
-      <div class="headline">
-       Relax. Breathe. <br/> Zen out Anywhere.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
+</div>
+</div>
  <div class="footer-menu">
-  <div class="menu today active">All</div>
-  <div class="menu game">Android</div>
-  <div class="menu apps">Chrome</div>
-  <div class="menu updates">Firefox</div>
+  <div class="menu today active" onclick="getApps('all');">All</div>
+  <div class="menu game" onclick="getApps('apk');">Android</div>
+  <div class="menu apps" onclick="getApps('crx');">Chrome</div>
+  <div class="menu updates" onclick="getApps('xpi');">Firefox</div>
   <div class="menu upload upload-button">Upload</div>
  </div>
 
@@ -165,7 +107,7 @@
       <label> Wallet: </label> <input type='file' id='walletUpload' accept=".json" /><br />
       <label> App Name: </label> <input type='text' name="name" id="title" style="width: 70%" /> <br />
       <label> Description: </label> <textarea name="description" id="description" style="width: 70%;"></textarea> <br />
-      <label> App File: </label> <input type='file' name="appfile" accept=".apk" /><br />
+      <label> App File: </label> <input type='file' name="appfile" id="appfile" accept=".apk,.ipa,.crx,.xpi" /><br />
       <label> App Image: </label> <input type='file' name="appimage" id="appimage" accept=".jpeg,.png,.jpg,.gif" /><br />
       <input type='button' id='btnLoad' value='Upload' onclick='upload();'>
       </form>
