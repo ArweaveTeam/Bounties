@@ -10,30 +10,10 @@ The Arweave itself is a global, permanent hard drive. The permaweb is a decentra
 
 **Time investment:** One afternoon to one weekend.
 
-## **Rewards:**
+## **Reward**
 
-**Basic:** $50 in ETH + 200 AR
-A simple application with functional features and a basic UI and styling, hosted on the permaweb. 
-
-**Advanced:** $250 in ETH + 500 AR
-A dynamic and interactive web application that is hosted on the permaweb, along with ideas that contribute added functionality to the permaweb eco system. For examples: [Arweave API explorer](https://arweave.net/LHff4F45o7ipDqjoePG0PDG5BD2hLD8xf17OBg4FjRE) & [ArweaveID](https://arweave.net/fGUdNmXFmflBMGI2f9vD7KzsrAc1s1USQgQLgAVT0W0). Ideas that resemble or improve on popular web applications such as [AskWeave](https://arweave.net/HhIjOjxgHYXJU5RVjRYfAR017vbZdujbCSlaA8NQ20U) & [Scribe](https://arweave.net/VOKAC_SYiUzbJrEaIY5SEBh1pf0bGQOd8c7G68nzet4#/) are also encouraged, and all applications must include a UI with basic styling.
-
-**Store the UI for an existing dApp** on the permaweb: $100 in ETH + 300 AR
-
-**Skyrocket with Apollo 🚀** Stand out from the crowd and build a show-stopping application with a killer UI to be in for the chance of entering our Apollo program. Apollo rewards you for building top-notch applications, by providing you with additional resources, rewards, and the chance to drive users to your perma-app. We’ll be keeping a close eye on submissions and if we spot a super-star build, you’ll be hearing from us! 
-
-If you’re unsure of which category your application fits into, [head over to our Discord server](https://discord.gg/VxJ3xsm) where both Arweave team members and the wider Arweave developer community can help guide you with your submission ideas!
-
-**Bonus Rewards:**
-
-*Most innovative app:* Each month we’ll be awarding a bonus $300 in ETH for the most ingenious and creative app that not only utilises the Arweave permaweb in a clever way, but is inspiring in its originality and vision. It’s the app that really stands out from the crowd, the star of the show if you will!
-
-*Best team submission:* We believe that a collective intelligence can produce amazing results. That’s why we’re awarding $300 ETH every month to the best team submission! Have an exciting app idea? Why not [join the Arweave Discord community](https://discord.gg/VxJ3xsm) and form a team? Or even invite your friends to help build out your idea! To make it worth your while, we’ll add an additional $100 in ETH for each additional team member! GO TEAM!
-
-*Best ecosystem contribution:* We’re looking for the best of the BEST ecosystem contribution. We’ll be awarding $300 of ETH each month to the community member who truly understands the community’s needs and builds a game changing app that significantly improves the permaweb experience.
-
-*Refer a friend:* We value the Arweave community and naturally we want to share the Arweave initiative with the world, that’s why we want to incentivise you to refer your talented developer friends. For each person you refer that joins the perpetual hackathon we’ll reward you AND your friend $10 of ETH. Simply @ your referrers’ GitHub handle when you submit your application. 
- 
+**$250 in ETH + 500 AR**
+A dynamic and interactive web application that is hosted on the permaweb, along with ideas that contribute added functionality to the permaweb eco system. For examples: [Arweave API explorer](https://arweave.net/LHff4F45o7ipDqjoePG0PDG5BD2hLD8xf17OBg4FjRE) & [ArweaveID](https://arweave.net/fGUdNmXFmflBMGI2f9vD7KzsrAc1s1USQgQLgAVT0W0). Ideas that resemble or improve on popular web applications such as [AskWeave](https://arweave.net/HhIjOjxgHYXJU5RVjRYfAR017vbZdujbCSlaA8NQ20U) & [Scribe](https://arweave.net/VOKAC_SYiUzbJrEaIY5SEBh1pf0bGQOd8c7G68nzet4#/) are also encouraged, and all applications must include a nice looking UI. Applications whose core features rely on centralised dependencies are not accepted. 
 
 ## **Resources**
 
@@ -45,10 +25,6 @@ We’re providing some free tokens so you can get started building and deploying
 
 ## **Rules**
 
-We want to let you get started building your app without delay, so ideas for submissions are automatically approved. However, **only submissions that meet the reward criteria outlined below will receive a reward** - so please make sure you review them carefully and make sure your app complies with them. 
-
-If we notice that your submission is unlikely to meet the reward criteria, we will try and let you know in advance, and are happy to offer guidance on how to tweak your idea to fit this guidance. [Holla at us](https://discord.gg/VxJ3xsm) on Discord! 
-
 **[Check out ArweaveApps](http://arweaveapps.com) to ensure your submission is substantially different from existing applications on the permaweb!**
 
 ### **Successful submissions will meet the following criteria:**
@@ -59,6 +35,7 @@ If we notice that your submission is unlikely to meet the reward criteria, we wi
 - Applications should be **sufficiently complex**, as judged by the core Arweave team. For example, a simple ‘hello world’ app is not complex enough to receive a reward. Broken/non-functional submissions will also be rejected. You should aim for a minimal viable product that an end-user could reasonably start to use.
 - Your submission must **include a link to a live, functioning, and running instance of the app itself, as well as a link to the repository** it is stored within. It must also be published to ArweaveApps (see the submission process below)
 - All applicants must **[join our Discord Dev server](https://discord.gg/VxJ3xsm)** and share your  submission in the **#on-the-arweave** channel upon completion 
+- Your GitHub account **must be at least one month old**
 - All submissions must include a **brief description** of the application and functionality in the GitHub repo
 - If you wish to submit **more than one** submission, you are required to get approval from us before you are eligible to start a 2nd. Submissions are **limited to three** per developer, unless you are part of the Apollo program 
 
@@ -70,20 +47,13 @@ If we notice that your submission is unlikely to meet the reward criteria, we wi
 
 ## **The submission process**
 
-- Click ‘Start Work’, and you will be automatically accepted so you can start hacking right away.
-- Please note, submissions will only receive a reward if they successfully meet the submission criteria listed above. If you have questions, please drop a comment below and we’ll be happy to help.
+Please note, submissions will only receive a reward if they successfully meet the submission criteria listed above. If you have questions, [holla at us on Discord!](https://discord.gg/VxJ3xsm)
+
 - Hack! Join us our tech Discord if you have any questions!
 - Publish your app to [ArweaveApps](https://arweave.net/35IFq9BcIgpSPti9YDYDiaQy4wMfMIKZ25t7hHZrhek). Also, submit a comment to the GitHub issue for the hackathon campaign [here](https://github.com/ArweaveTeam/Bounties/issues/1), containing a link to your app’s repository, and a link to the live, running version of your app on the permaweb. You can generate a permaweb URL for the app by appending the transaction ID to this gateway link: [https://arweave.net/](https://arweave.net/)
 - If you wish to submit more than one project, you will not be able to do so via GitCoin. In this case, you can submit an application by posting your build in the GitHub issue and provide a link to the live deployed app. We also recommend pitching your idea for additional submissions on [Discord](https://discord.gg/VxJ3xsm) before starting work.
 - If your app meets the reward criteria defined above, we will release the reward!
 
-## **App ideas**
+**Skyrocket with Apollo 🚀** Stand out from the crowd and build a show-stopping application with a killer UI to be in for the chance of entering our Apollo program. Apollo rewards you for building top-notch applications, by providing you with additional resources, rewards, and the chance to drive users to your perma-app. We’ll be keeping a close eye on submissions and if we spot a super-star build, you’ll be hearing from us! 
 
-This bounty allows you to build whatever app you like on top of the Arweave’s permaweb, but here are some ideas to get you started:
-
-- Weavelist: A public mailing list and discussion app, similar to weavemail.app except open and unencrypted.
-- WeaveDirectory: An index of weavemail.app users allowing short bios to help people find community members to chat to.
-- ShowerThoughts: Submit short, interesting ideas to the permaweb, never to be forgotten.
-
-Remember, we’d love you to join us on our developers’ [Discord server](https://discord.gg/VxJ3xsm) to chat, and get feedback and assistance with building!
-
+Remember to join us on our developers’ [Discord server](https://discord.gg/VxJ3xsm) to chat, and get feedback and assistance with building!
