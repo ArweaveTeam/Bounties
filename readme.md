@@ -23,6 +23,8 @@ The docs for the JS library that allows you to read from and write to the permaw
 
 We’re providing some free tokens so you can get started building and deploying - grab your wallet [here](https://tokens.arweave.org/#/wallet). For guidance on how to use the Chrome web extension wallet, check out [this user guide](https://docs.arweave.org/info/wallets/arweave-web-extension-wallet).
 
+Download the Arweave logo and other assets [here](https://drive.google.com/drive/folders/1oMkfZvYb3uIKYX_AP4M0lPkylpMimm5K?usp=sharing)
+
 ## **Rules**
 
 **[Check out ArweaveApps](http://arweaveapps.com) to ensure your submission is substantially different from existing applications on the permaweb!**
@@ -54,7 +56,5 @@ Please note, submissions will only receive a reward if they successfully meet th
 - Publish your app to [ArweaveApps](https://arweave.net/35IFq9BcIgpSPti9YDYDiaQy4wMfMIKZ25t7hHZrhek). Also, submit a comment to the GitHub issue for the hackathon campaign [here](https://github.com/ArweaveTeam/Bounties/issues/1), containing a link to your app’s repository, and a link to the live, running version of your app on the permaweb. You can generate a permaweb URL for the app by appending the transaction ID to this gateway link: [https://arweave.net/](https://arweave.net/)
 - If you wish to submit more than one project, you will not be able to do so via GitCoin. In this case, you can submit an application by posting your build in the GitHub issue and provide a link to the live deployed app. We also recommend pitching your idea for additional submissions on [Discord](https://discord.gg/VxJ3xsm) before starting work.
 - If your app meets the reward criteria defined above, we will release the reward!
-
-**Skyrocket with Apollo 🚀** Stand out from the crowd and build a show-stopping application with a killer UI to be in for the chance of entering our Apollo program. Apollo rewards you for building top-notch applications, by providing you with additional resources, rewards, and the chance to drive users to your perma-app. We’ll be keeping a close eye on submissions and if we spot a super-star build, you’ll be hearing from us! 
 
 Remember to join us on our developers’ [Discord server](https://discord.gg/VxJ3xsm) to chat, and get feedback and assistance with building! 
