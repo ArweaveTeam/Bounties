@@ -31,6 +31,7 @@ We’re providing some free tokens so you can get started building and deploying
 
 - Submissions must be **your own original work**, and must be **unique or substantially different** from other permaweb applications or submissions to this hackathon.
 - We are happy to accept forks of other applications, but the featureset must be substantially different or significantly expanded in the forked version.
+- Your app **_must_ interact with Arweave** using ArweaveJS 
 - Apps must be **open source, with the full source code available on Github or another open code hosting repository**. Feel free to use whatever OSS licence you prefer.
 - Applications should be **sufficiently complex**, as judged by the core Arweave team. For example, a simple ‘hello world’ app is not complex enough to receive a reward. Broken/non-functional submissions will also be rejected. You should aim for a minimal viable product that an end-user could reasonably start to use.
 - Your submission must **include a link to a live, functioning, and running instance of the app itself, as well as a link to the repository** it is stored within. It must also be published to ArweaveApps (see the submission process below)
@@ -56,4 +57,4 @@ Please note, submissions will only receive a reward if they successfully meet th
 
 **Skyrocket with Apollo 🚀** Stand out from the crowd and build a show-stopping application with a killer UI to be in for the chance of entering our Apollo program. Apollo rewards you for building top-notch applications, by providing you with additional resources, rewards, and the chance to drive users to your perma-app. We’ll be keeping a close eye on submissions and if we spot a super-star build, you’ll be hearing from us! 
 
-Remember to join us on our developers’ [Discord server](https://discord.gg/VxJ3xsm) to chat, and get feedback and assistance with building!
+Remember to join us on our developers’ [Discord server](https://discord.gg/VxJ3xsm) to chat, and get feedback and assistance with building! 
