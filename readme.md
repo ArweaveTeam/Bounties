@@ -12,7 +12,7 @@ The Arweave itself is a global, permanent hard drive. The permaweb is a decentra
 
 ## **Reward**
 
-**$250 in ETH + $150 in AR**
+**$250 in ETH + $50 in AR**
 A dynamic and interactive web application that is hosted on the permaweb, along with ideas that contribute added functionality to the permaweb eco system. For examples: [Arweave API explorer](https://arweave.net/LHff4F45o7ipDqjoePG0PDG5BD2hLD8xf17OBg4FjRE) & [ArweaveID](https://arweave.net/fGUdNmXFmflBMGI2f9vD7KzsrAc1s1USQgQLgAVT0W0). Ideas that resemble or improve on popular web applications such as [AskWeave](https://arweave.net/HhIjOjxgHYXJU5RVjRYfAR017vbZdujbCSlaA8NQ20U) & [Scribe](https://arweave.net/VOKAC_SYiUzbJrEaIY5SEBh1pf0bGQOd8c7G68nzet4#/) are also encouraged, and all applications must include a nice looking UI. Applications whose core features rely on centralised dependencies are not accepted. 
 
 ## **Resources**
