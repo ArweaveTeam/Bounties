@@ -23,8 +23,6 @@ The docs for the JS library that allows you to read from and write to the permaw
 
 We’re providing some free tokens so you can get started building and deploying - grab your wallet [here](https://tokens.arweave.org/#/wallet). For guidance on how to use the Chrome web extension wallet, check out [this user guide](https://docs.arweave.org/info/wallets/arweave-web-extension-wallet).
 
-Download the Arweave logo and other assets [here](https://drive.google.com/drive/folders/1oMkfZvYb3uIKYX_AP4M0lPkylpMimm5K?usp=sharing)
-
 ## **Rules**
 
 **[Check out ArweaveApps](http://arweaveapps.com) to ensure your submission is substantially different from existing applications on the permaweb!**
@@ -40,12 +38,12 @@ Download the Arweave logo and other assets [here](https://drive.google.com/drive
 - All applicants must **[join our Discord Dev server](https://discord.gg/VxJ3xsm)** and share your  submission in the **#on-the-arweave** channel upon completion 
 - Your GitHub account **must be at least one month old**
 - All submissions must include a **brief description** of the application and functionality in the GitHub repo
-- If you wish to submit **more than one** submission, you are required to get approval from us before you are eligible to start a 2nd. Submissions are **limited to three** per developer, unless you are part of the Apollo program 
+- If you wish to submit **more than one** submission, you are required to get approval from us before you are eligible to start a 2nd. Submissions are **limited to three** per developer
 
 ## **Reward details**
 
 - We are currently offering rewards for up to 500 successful submissions in this hackathon
-- The value of ETH to USD will be pegged at the time of transfer, which follows successful submission and provision of recipients’ ETH and AR addresses.
+- The value of ETH and AR to USD will be pegged at the time of transfer, which follows successful submission and provision of recipients’ ETH and AR addresses.
 - Only submissions which are judged by the core Arweave team to meet all of the submission criteria will receive the rewards
 
 ## **The submission process**
