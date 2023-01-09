@@ -38,7 +38,6 @@ We’re providing some free tokens so you can get started building and deploying
 - All applicants must **[join our Discord Dev server](https://discord.gg/VxJ3xsm)** and share your  submission in the **#on-the-arweave** channel upon completion 
 - Your GitHub account **must be at least one month old**
 - All submissions must include a **brief description** of the application and functionality in the GitHub repo
-- If you wish to submit **more than one** submission, you are required to get approval from us before you are eligible to start a 2nd. Submissions are **limited to three** per developer
 
 ## **Reward details**
 
@@ -52,7 +51,6 @@ Please note, submissions will only receive a reward if they successfully meet th
 
 - Hack! Join us our tech Discord if you have any questions!
 - Publish your app to [ArweaveApps](https://arweave.net/35IFq9BcIgpSPti9YDYDiaQy4wMfMIKZ25t7hHZrhek). Also, submit a comment to the GitHub issue for the hackathon campaign [here](https://github.com/ArweaveTeam/Bounties/issues/1), containing a link to your app’s repository, and a link to the live, running version of your app on the permaweb. You can generate a permaweb URL for the app by appending the transaction ID to this gateway link: [https://arweave.net/](https://arweave.net/)
-- If you wish to submit more than one project, you will not be able to do so via GitCoin. In this case, you can submit an application by posting your build in the GitHub issue and provide a link to the live deployed app. We also recommend pitching your idea for additional submissions on [Discord](https://discord.gg/VxJ3xsm) before starting work.
 - If your app meets the reward criteria defined above, we will release the reward!
 
 Remember to join us on our developers’ [Discord server](https://discord.gg/VxJ3xsm) to chat, and get feedback and assistance with building! 
